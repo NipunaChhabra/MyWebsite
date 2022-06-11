@@ -2561,19 +2561,19 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 0.25em;
+		border-radius: 0.15em;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 0.25em;
+			border-radius: 0.15em;
 			display: block;
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 60%;
 		}
 
 			.image.left img, .image.right img {
@@ -2583,13 +2583,13 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
-			top: 0.25em;
+			top: 0.15em;
 		}
 
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
-			top: 0.25em;
+			top: 0.15em;
 		}
 
 		.image.fit {
